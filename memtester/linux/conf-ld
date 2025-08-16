@@ -1,3 +1,3 @@
-cc -s
+riscv64-unknown-linux-gnu-gcc -s -static
 
 This will be used to link .o files into an executable.
