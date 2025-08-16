@@ -12,7 +12,7 @@ int main(void)
      * arg2: Test size (Bytes)
      * arg3: Test total loops
      */
-    memtester(0xA0000000, 0x1000, 5);
+    memtester(0x80000000, 0x1000, 5);
 
     return 0;
 }
